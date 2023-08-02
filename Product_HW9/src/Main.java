@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         ArrayList<Book> liberaryBooks = new ArrayList<>();
-        liberaryBooks.add(new Book("Java book" , 250,"Dr.Maher"));
+        liberaryBooks.add(new Book("Java book" , 500,"Dr.Maher"));
         liberaryBooks.add(new Book("Python book" , 100,"Dr.Mustafa"));
         liberaryBooks.add(new Book("javascript book" , 250,"Dr.Mohammed"));
         liberaryBooks.add(new Book("System analysis & design book" , 350,"Dr.Abeer"));
